@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="priyanshi">
+            <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+            <meta name="Description" content="about contact for tacos website">
+            <title>Contact</title>
+            <link href="https://www.dafontfree.net/embed/ZnVnYXotb25lLXJlZ3VsYXImZGF0YS8xMC9mLzU5MjY5L0Z1Z2F6T25lLVJlZ3VsYXIudHRm" rel="stylesheet" type="text/css"/>
+            <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+            <link rel="stylesheet" href="/webdev/Basic-HTML-CSS-Website/taco.css">
+        </head>
+        <body>
+            <header class="header">
+                <h1 class="header__h1">Little Taco Shop</h1>
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li>
+                            <a href="ModernTaco.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/webdev/Basic-HTML-CSS-Website/ModernTaco.html#menu">Menu</a>
+                        </li>
+                        <li>
+                            <a href="StoreHours.html">Hours</a>
+                        </li>
+                        <li>
+                            <a href="AboutUs.html">About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="hero">
+                <figure>
+                    <img src="https://yummylittletacoshop.netlify.app/img/tacos_close_up_1000x649.png" alt="little taco shop tacos" title="Tacos ready to eat!" width="1000" height="649">
+                </figure>
+                </figure>
+                <figcaption class="offscreen">Little taco shop tacos</figcaption>
+            </section>
+            <main class="main">
+            <article id="About" class="main__article">
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Cravings Lane, Suite T 
+                <br>
+                Kansas City, MO 55555-5555
+                <br>
+                <br>
+                phone:<a href="tel:+5555555555">555-555-5555</a>
+            </address>
+            </article>
+            <article class="main__article contact">
+            <h2 class="contact__h2">Our Contact Form</h2>
+            <form action="https://httpbin.org/get" Method="get" class="contact__form">
+                <fielset class="contact__fieldset">
+                    <legend class="offscreen">Send us a message</legend>
+                <p class="contact__p">
+                <label class="contact__label" for="name">Name:</label>
+                <br>
+                <input class="contact__input" id="name" type="text" placeholder="your name" required>
+                </p>
+                <p class="contact_p">
+                <label class="contact__label" for="email">Email:</label>
+                <br>
+                <input class="contact__input" id="email" type="text" placeholder="your email" required>
+                </p>
+                <p class="contact__p">
+                <label class="contact__label" for="Message">Your Message:</label>
+                <br>
+                <textarea class="contact__text" id="message" type="message" placeholder="Type your message here" columns="30" row="10"></textarea>
+                </p>
+                </fielset>
+                <button class="contact__button" type="submit">submit</button>
+                <button class="contact__button" type="reset">reset</button>
+            </form>
+            </article>
+            </main>
+            <footer class="footer">
+                <p>
+                    <span class="nowrap">Copyright &copy; 2023</span> 
+                    <span class="nowrap">Little Taco Shop</span>
+                </p>
+            </footer>
+        </body>
+    </html>
